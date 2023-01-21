@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #80808029;
+    font-family: 'Raleway';
+}
+
+/*------Area Topo------*/
+
+header {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 32px;
+    height: 32px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+
+}
+
+header div p {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+.limita-largura {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+/*------Area Formulário------*/
+
+.background-topo {
+    background-image: url('../img/bahia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.formulario {
+    width: 100%;
+    height: auto;
+}
+
+.topo-form {
+    width: 100%;
+    height: 32px;
+    background-color: #5d15d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-form img {
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+
+.topo-form h1 {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+form {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+form label {
+    font-size: 16px;
+}
+
+.input-text {
+    height: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-flex div {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+    margin: 0 3px;
+}
+
+.container2 {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 input {
+    width: 15px;
+    margin-left: 3px;
+}
+
+.container2 label {
+    margin-left: 8px;
+}
+
+button {
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+/*------Area Ofertas------*/
+
+.ofertas {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.ofertas h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ofertas p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.texto-negrito {
+    font-weight: bold;
+}
+
+.ofertas figure {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.area-imagem1 {
+    width: calc(50% - 10px);
+    height: 100%;
+    position: relative;
+}
+
+.area-imagem1 figcaption, .area-imagem2 figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: #fff;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.area-imagem2 {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.area-imagem2 div {
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    justify-content: space-between;
+    margin-left: 6px;
+    position: relative;
+}
+
+.area-imagem1 img, .area-imagem2 div img {
+    width: 100%;
+    height: 100%;   
+}
+
+
+.anuncios {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.anuncios h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.anuncios p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.anuncios section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-anuncio {
+    flex-flow: column wrap;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.container-anuncio div {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.container-anuncio div h3 {
+    font: 16px;
+}
+
+.container-anuncio div p {
+    color: gray;
+    font: 14px;
+    margin-top: 15px;
+}
+
+.anuncios img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #5d15d1;
+    margin-top: 32px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area-rodape {
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.rodape h4 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+
+.container-rodape img {
+    width: 18px;
+}
+
+.container-rodape span {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1100px) {
+    .limita-largura {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+
+    .ofertas figure,.area-imagem1, .area-imagem2{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .area-imagem2 div, .area-imagem1 {
+        width: 100%;
+        height: 225px;
+        margin: 10px 0;
+    }
+
+    .anuncios section {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .rodape {
+        flex-direction: column;
+    }
+
+    .area-rodape {
+        width: 250px;
+    }
+}
+
+@media (max-width: 540px) {
+    .form-flex div {
+        flex-direction: column;
+    }
+
+    .container2 {
+        flex-direction: column;
+    }
+
+}
